@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Nintendo Clone</title>
+  <link rel="icon" href="/클론 웹 사이트 만들기/Nintendo_images/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="top"></div>
+
+  <!-- 모바일 전용 헤더 -->
+  <div class="mobile-header">
+    <div class="mobile-header-top">
+      <a href="#" class="mobile-logo" aria-label="Nintendo 홈">
+        <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_112_top.png" alt="Nintendo 로고" />
+      </a>
+
+      <div class="mobile-header-actions">
+        <a href="#" class="mobile-action" aria-label="좋아요">♡</a>
+        <a href="#" class="mobile-action" aria-label="검색">⌕</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 모바일 전용 하단 고정 메뉴 -->
+  <nav class="mobile-bottom-nav" aria-label="모바일 하단 메뉴">
+    <a href="#" class="mobile-bottom-item active">
+      <span class="mobile-bottom-icon">⌂</span>
+      <span class="mobile-bottom-text">홈</span>
+    </a>
+    <a href="#" class="mobile-bottom-item">
+      <span class="mobile-bottom-icon">✚</span>
+      <span class="mobile-bottom-text">본체/amiibo</span>
+    </a>
+    <a href="#" class="mobile-bottom-item">
+      <span class="mobile-bottom-icon">▦</span>
+      <span class="mobile-bottom-text">News</span>
+    </a>
+    <a href="#" class="mobile-bottom-item">
+      <span class="mobile-bottom-icon">🔧</span>
+      <span class="mobile-bottom-text">고객지원</span>
+    </a>
+    <a href="#" class="mobile-bottom-item">
+      <span class="mobile-bottom-icon">⌕</span>
+      <span class="mobile-bottom-text">검색</span>
+    </a>
+  </nav>
+  
+
+  <!-- =========================
+       헤더
+  ========================== -->
+  <header class="header">
+    <div class="header-top">
+      <a href="#" class="logo-area" aria-label="Nintendo 홈">
+        <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_112_top.png" alt="Nintendo 로고" />
+      </a>
+
+      <nav class="gnb" aria-label="주요 메뉴">
+
+        <!-- 본체 및 amiibo -->
+        <div class="menu-slot">
+          <a href="#" class="gnb-item">
+            <span class="icon">✚</span>
+            <span class="label">본체 및 amiibo</span>
+          </a>
+
+          <div class="mega-panel">
+            <div class="mega-inner console-panel">
+              <div class="console-top">
+                <a href="#" class="console-card big">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/unnamed.jpg" alt="Nintendo Switch 2" />
+                  <p>Nintendo Switch 2</p>
+                </a>
+
+                <a href="#" class="console-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/unnamed2.jpg" alt="Nintendo Switch" />
+                  <p>Nintendo Switch</p>
+                </a>
+              </div>
+
+              <div class="console-links">
+                <a href="#" class="console-link">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_5_img_amiibo.jpg" alt="amiibo" />
+                  <span>amiibo</span>
+                </a>
+
+                <a href="#" class="console-link">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_6_img_gamewatch.jpg" alt="게임 & 워치" />
+                  <span>게임 & 워치 젤다의 전설</span>
+                </a>
+
+                <a href="#" class="console-link">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_7_img_alarmo.jpg" alt="Alarmo" />
+                  <span>닌텐도 사운드 클록 Alarmo</span>
+                </a>
+
+                <a href="#" class="console-link">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_8_img_pokemongoplusplus.jpg" alt="Pokémon GO Plus+" />
+                  <span>Pokémon GO Plus+</span>
+                </a>
+              </div>
+
+              <div class="panel-bottom-links">
+                <a href="#">본체 호환성에 대하여</a>
+                <a href="#">주변기기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 소프트웨어 -->
+        <div class="menu-slot">
+          <a href="#" class="gnb-item">
+            <span class="icon">★</span>
+            <span class="label">소프트웨어</span>
+          </a>
+
+          <div class="mega-panel">
+            <div class="mega-inner software-panel">
+              <div class="software-hero">
+                <div class="software-hero-left">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_1_NS2_logo_pc.png" alt="Nintendo Switch 2 소프트웨어" />
+                </div>
+
+                <div class="software-hero-right">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_9_gheader-itemlist-img-software-switch2-01.jpg" alt="커비의 에어 라이더" />
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_10_gheader-itemlist-img-software-switch2-02.jpg" alt="포켓몬" />
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_11_gheader-itemlist-img-software-switch2-03.jpg" alt="동키콩 바난자" />
+                </div>
+              </div>
+
+              <div class="software-bottom">
+                <div class="software-bottom-left">
+                  <a href="#" class="software-feature software-feature-main">
+                    <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_79_default.png" alt="Nintendo Switch 소프트웨어" />
+
+                    <div class="software-feature-text">
+                      <strong>Nintendo Switch 소프트웨어</strong>
+                    </div>
+
+                    <div class="software-feature-thumbs">
+                      <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_12_gheader-itemlist-img-switch-01.png" alt="게임 1" />
+                      <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_13_gheader-itemlist-img-switch-02.png" alt="게임 2" />
+                      <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_14_gheader-itemlist-img-switch-03.png" alt="게임 3" />
+                    </div>
+                  </a>
+
+                  <div class="software-online-row">
+                    <a href="#" class="online-banner">
+                      <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_32_img-support-04.png" alt="Nintendo Switch Online" />
+                    </a>
+
+                    <div class="online-text">
+                      <span class="mini-title">유료 서비스</span>
+                      <strong>Nintendo Switch Online</strong>
+                    </div>
+
+                    <div class="online-links">
+                      <a href="#">체험판을 즐길 수 있는 소프트웨어</a>
+                      <a href="#">소프트웨어 발매 스케줄</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="software-bottom-right">
+                  <a href="#" class="software-feature software-feature-app">
+                    <div class="app-icons">
+                      <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_15_gheader-itemlist-img-software-mobile-01.png" alt="앱 1" />
+                      <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_16_gheader-itemlist-img-software-mobile-02.png" alt="앱 2" />
+                      <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_17_gheader-itemlist-img-software-mobile-03.png" alt="앱 3" />
+                      <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_18_gheader-itemlist-img-software-mobile-04.png" alt="앱 4" />
+                    </div>
+
+                    <div class="software-feature-text center">
+                      <strong>스마트폰용 앱</strong>
+                    </div>
+                  </a>
+
+                  <div class="software-app-links">
+                    <a href="#" class="app-link-card">
+                      <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_19_gheader-itemlist-img-software-app.png" alt="Nintendo Switch App" />
+                      <strong>Nintendo Switch App</strong>
+                    </a>
+
+                    <a href="#" class="app-link-card">
+                      <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_20_gheader-itemlist-img-software-parents.png" alt="Nintendo Switch Parental Controls" />
+                      <strong>Nintendo Switch Parental Controls</strong>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- News -->
+        <div class="menu-slot">
+          <a href="#" class="gnb-item">
+            <span class="icon">▦</span>
+            <span class="label">News</span>
+          </a>
+
+          <div class="mega-panel">
+            <div class="mega-inner news-panel">
+              <div class="news-rank-grid">
+                <a href="#" class="news-rank-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_80_MV_16x9.png" alt="" />
+                  <p>『Pokémon Pokopia』 패키지 버전 예약 판매 일정 및 구입 특전 안내</p>
+                  <span>뉴스 <br />2026.01.14</span>
+                </a>
+
+                <a href="#" class="news-rank-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_81_01_ë__ë__.png" alt="" />
+                  <p>DDP(동대문디자인플라자)에서 포켓몬 게임 체험 이벤트 개최!</p>
+                  <span>뉴스 <br />2026.02.26</span>
+                </a>
+
+                <a href="#" class="news-rank-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_82_ë__í__ê__ë__ì__í__í___1920x1080.png" alt="" />
+                  <p>『슈퍼 마리오브라더스 원더 Nintendo Switch 2 Edition + 다 함께 방울 파크』 패키지 버전 예약 및 조기 구입 특전 안내</p>
+                  <span>Nintendo Switch 2 | 뉴스 <br />2026.02.25</span>
+                </a>
+
+                <a href="#" class="news-rank-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_83_topics_Alarmo_vol2_820_461.png" alt="" />
+                  <p>【Alarmo 특집 Vol.2】 『모여봐요 동물의 숲』의 알람(총 7종)을 소개합니다.</p>
+                  <span>뉴스 <br />2026.02.19</span>
+                </a>
+
+                <a href="#" class="news-rank-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_84_topics_VB_1280_720_topics.png" alt="" />
+                  <p>「Virtual Boy – Nintendo Classics」이 오늘부터 배포됩니다. 전용 하드웨어의 사용 방법과 화면 설정 방법을 소개합니다.</p>
+                  <span>뉴스 <br />2026.02.17</span>
+                </a>
+              </div>
+
+              <div class="panel-bottom-links center">
+                <a href="#">News 목록</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 캐릭터 -->
+        <div class="menu-slot">
+          <a href="#" class="gnb-item">
+            <span class="icon">♣</span>
+            <span class="label">캐릭터</span>
+          </a>
+
+          <div class="mega-panel">
+            <div class="mega-inner character-panel">
+              <div class="character-grid">
+                <a href="#" class="character-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_21_img-mario.png" alt="" />
+                  <p>마리오</p>
+                </a>
+
+                <a href="#" class="character-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_22_img-zelda.png" alt="" />
+                  <p>젤다의 전설</p>
+                </a>
+
+                <a href="#" class="character-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_23_img-kirby.png" alt="" />
+                  <p>별의 커비</p>
+                </a>
+
+                <a href="#" class="character-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_24_img-splatoon.png" alt="" />
+                  <p>스플래툰</p>
+                </a>
+
+                <a href="#" class="character-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_25_img-pikmin.png" alt="" />
+                  <p>피크민</p>
+                </a>
+              </div>
+
+              <div class="related-box">
+                <h4>관련 페이지</h4>
+                <a href="#" class="related-card">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_26_gheader-banner-01.png" alt="" />
+                  <div>
+                    <span>노래</span>
+                    <strong>뽕-쑥싹·챰뽕!싫어</strong>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 고객지원 -->
+        <div class="menu-slot">
+          <a href="#" class="gnb-item">
+            <span class="icon">🔧</span>
+            <span class="label">고객지원</span>
+          </a>
+
+          <div class="mega-panel">
+            <div class="mega-inner support-panel">
+              <div class="support-grid">
+                <a href="#" class="support-item">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_19_gheader-itemlist-img-software-app.png" alt="" />
+                  <span>Nintendo Switch 2 고객지원</span>
+                </a>
+
+                <a href="#" class="support-item">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_28_img-support-01.gif" alt="" />
+                  <span>Nintendo Switch 고객지원</span>
+                </a>
+
+                <a href="#" class="support-item">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_29_img-support-08.gif" alt="" />
+                  <span>자주 묻는 질문</span>
+                </a>
+
+                <a href="#" class="support-item">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_30_img-support-06.gif" alt="" />
+                  <span>온라인 수리접수</span>
+                </a>
+
+                <a href="#" class="support-item">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_31_img-support-09.gif" alt="" />
+                  <span>온라인 고객 상담</span>
+                </a>
+
+                <a href="#" class="support-item">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_32_img-support-04.png" alt="" />
+                  <span>Nintendo Switch Online 서포트</span>
+                </a>
+
+                <a href="#" class="support-item">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_33_img-support-05.gif" alt="" />
+                  <span>네트워크 장애 발생 상황</span>
+                </a>
+
+                <a href="#" class="support-item">
+                  <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_34_img-support-07.gif" alt="" />
+                  <span>닌텐도 e숍</span>
+                </a>
+              </div>
+
+              <div class="panel-bottom-links center">
+                <a href="#">고객지원 목록</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 스토어 -->
+        <div class="menu-slot no-panel">
+          <a href="#" class="gnb-item">
+            <span class="icon">🛒</span>
+            <span class="label">스토어</span>
+          </a>
+        </div>
+
+        <!-- 검색 -->
+        <a href="#" class="search-box" aria-label="검색">
+          <span class="search-icon">🔍</span>
+          <span class="search-text">검색</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- =========================
+         메인 슬라이더
+    ========================== -->
+    <section class="slider-section">
+      <input type="radio" name="banner" id="slide1" checked />
+      <input type="radio" name="banner" id="slide2" />
+      <input type="radio" name="banner" id="slide3" />
+      <input type="radio" name="banner" id="slide4" />
+      <input type="radio" name="banner" id="slide5" />
+
+      <div class="slider">
+        <div class="slides">
+          <article class="slide">
+            <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_36_1920x700__1_.png" alt="슬라이드 1" />
+            <div class="slide-overlay"></div>
+          </article>
+
+          <article class="slide">
+            <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_37_PC.png" alt="슬라이드 2" />
+            <div class="slide-overlay"></div>
+          </article>
+
+          <article class="slide">
+            <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_38_ë__ë__ì__í__ë__ì__í__ë___1920.jpg" alt="슬라이드 3" />
+            <div class="slide-overlay"></div>
+          </article>
+
+          <article class="slide">
+            <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_39_PokemonZ-A_1920x700.jpg" alt="슬라이드 4" />
+            <div class="slide-overlay"></div>
+          </article>
+
+          <article class="slide">
+            <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_35_마리오_1920.jpg" alt="슬라이드 5" />
+            <div class="slide-overlay"></div>
+          </article>
+        </div>
+
+        <div class="arrow-set arrow1">
+          <label for="slide5" class="arrow prev">‹</label>
+          <label for="slide2" class="arrow next">›</label>
+        </div>
+
+        <div class="arrow-set arrow2">
+          <label for="slide1" class="arrow prev">‹</label>
+          <label for="slide3" class="arrow next">›</label>
+        </div>
+
+        <div class="arrow-set arrow3">
+          <label for="slide2" class="arrow prev">‹</label>
+          <label for="slide4" class="arrow next">›</label>
+        </div>
+
+        <div class="arrow-set arrow4">
+          <label for="slide3" class="arrow prev">‹</label>
+          <label for="slide5" class="arrow next">›</label>
+        </div>
+
+        <div class="arrow-set arrow5">
+          <label for="slide4" class="arrow prev">‹</label>
+          <label for="slide1" class="arrow next">›</label>
+        </div>
+
+        <div class="controls">
+          <label for="slide1" class="control-item">
+            <span class="thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_40_icon__1_.png" alt="슬라이드 1 썸네일" /></span>
+            <span class="control-text">Pokémon Pokopia</span>
+          </label>
+
+          <label for="slide2" class="control-item">
+            <span class="thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_41_ë__ì__ë__ë___ì__ì__ì__.jpg" alt="슬라이드 2 썸네일" /></span>
+            <span class="control-text">모여봐요 동물의 숲</span>
+          </label>
+
+          <label for="slide3" class="control-item">
+            <span class="thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_42_icon.jpg" alt="슬라이드 3 썸네일" /></span>
+            <span class="control-text">마리오 테니스 피버</span>
+          </label>
+
+          <label for="slide4" class="control-item">
+            <span class="thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_10_gheader-itemlist-img-software-switch2-02.jpg" alt="슬라이드 4 썸네일" /></span>
+            <span class="control-text">Pokémon LEGENDS Z-A</span>
+          </label>
+
+          <label for="slide5" class="control-item">
+            <span class="thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_44_switch2_mariokart-world_thumb.jpg" alt="슬라이드 5 썸네일" /></span>
+            <span class="control-text">마리오 카트 월드</span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         상단 광고 배너
+    ========================== -->
+    <section class="top-ad">
+      <div class="center-wrap">
+        <a href="#" class="top-ad-img">
+          <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_45_today-bnr--pc.png" alt="Nintendo Today 배너" />
+        </a>
+      </div>
+    </section>
+
+    <!-- =========================
+         새롭게 알려 드립니다
+    ========================== -->
+    <section class="news-section">
+      <div class="center-wrap">
+        <div class="section-head">
+          <h2 class="section-title">새롭게 알려 드립니다</h2>
+          <span class="section-sub">News & Update</span>
+        </div>
+
+        <div class="news-grid">
+          <a class="news-card" href="#">
+            <div class="news-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_115_1920.png" alt="뉴스 8" /></div>
+            <div class="news-body">
+              <p class="news-title">「Pokémon Presents 2026.2.27」이 공개되었습니다.</p>
+              <div class="news-meta">
+                <span class="news-tag">Nintendo Switch</span>
+                <span class="news-date">2026.02.27</span>
+                <span class="news-dot">●</span>
+              </div>
+            </div>
+          </a>
+
+          <a class="news-card" href="#">
+            <div class="news-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_81_01_ë__ë__.png" alt="뉴스 1" /></div>
+            <div class="news-body">
+              <p class="news-title">DDP(동대문디자인플라자)에서 포켓몬 게임 체험 이벤트 개최!</p>
+              <div class="news-meta">
+                <span class="news-tag">뉴스</span>
+                <span class="news-date">2026.02.26</span>
+                <span class="news-dot">●</span>
+              </div>
+            </div>
+          </a>
+
+          <a class="news-card" href="#">
+            <div class="news-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_82_ë__í__ê__ë__ì__í__í___1920x1080.png" alt="뉴스 2" /></div>
+            <div class="news-body">
+              <p class="news-title">『슈퍼 마리오브라더스 원더 Nintendo Switch 2 Edition + 다 함께 방울 파크』 패키지 버전 예약 및 조기 구입 특전 안내</p>
+              <div class="news-meta">
+                <span class="news-tag">Nintendo Switch 2</span>
+                <span class="news-date">2026.02.25</span>
+                <span class="news-dot">●</span>
+              </div>
+            </div>
+          </a>
+
+          <a class="news-card" href="#">
+            <div class="news-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_116_topics_1280_720.png" alt="뉴스 3" /></div>
+            <div class="news-body">
+              <p class="news-title">『제노블레이드 크로니클스 크로스 디피니티브 에디션 Nintendo Switch 2 Edition』 배포 개시. 패키지 버전은 4월 16일 발매.</p>
+              <div class="news-meta">
+                <span class="news-tag">Nintendo Switch 2</span>
+                <span class="news-date">2026.02.20</span>
+                <span class="news-dot">●</span>
+              </div>
+            </div>
+          </a>
+
+          <a class="news-card" href="#">
+            <div class="news-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_117_topics_Alarmo_vol2_820_461.png" alt="뉴스 4" /></div>
+            <div class="news-body">
+              <p class="news-title">【Alarmo 특집 Vol.2】 『모여봐요 동물의 숲』의 알람(총 7종)을 소개합니다.</p>
+              <div class="news-meta">
+                <span class="news-tag">뉴스</span>
+                <span class="news-date">2026.02.19</span>
+                <span class="news-dot">●</span>
+              </div>
+            </div>
+          </a>
+
+          <a class="news-card" href="#">
+            <div class="news-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_118_topics_VB_1280_720_topics.png" alt="뉴스 5" /></div>
+            <div class="news-body">
+              <p class="news-title">「Virtual Boy – Nintendo Classics」이 오늘부터 배포됩니다. 전용 하드웨어의 사용 방법과 화면 설정 방법을 소개합니다.</p>
+              <div class="news-meta">
+                <span class="news-tag">뉴스</span>
+                <span class="news-date">2026.02.17</span>
+                <span class="news-dot">●</span>
+              </div>
+            </div>
+          </a>
+
+          <a class="news-card" href="#">
+            <div class="news-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/7.jpg" alt="뉴스 6" /></div>
+            <div class="news-body">
+              <p class="news-title">Nintendo Switch 2 소프트웨어 『마리오 테니스 피버』 오늘 발매</p>
+              <div class="news-meta">
+                <span class="news-tag">Nintendo Switch 2</span>
+                <span class="news-date">2026.02.12</span>
+                <span class="news-dot">●</span>
+              </div>
+            </div>
+          </a>
+
+          <a class="news-card" href="#">
+            <div class="news-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_119_00000_HardDesign_1280_720_topics.png" alt="뉴스 7" /></div>
+            <div class="news-body">
+              <p class="news-title">『모여봐요 동물의 숲』에서 닌텐도 게임기 마이 디자인을 배포합니다.</p>
+              <div class="news-meta">
+                <span class="news-tag">뉴스</span>
+                <span class="news-date">2026.02.03</span>
+                <span class="news-dot">●</span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="more-wrap">
+          <a class="more-btn" href="#"><span class="more-dot">●</span> 더보기</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         주황 배너
+    ========================== -->
+    <section class="orange-strip">
+      <a href="#" class="orange-strip-inner">
+        <span class="strip-small">Nintendo Switch</span>
+        <span class="strip-big">닌텐도 선불 번호 구입</span>
+        <span class="strip-arrow">›</span>
+      </a>
+    </section>
+
+    <!-- =========================
+         주요 소프트웨어
+    ========================== -->
+    <section class="pickup-section">
+      <div class="center-wrap">
+        <div class="section-head">
+          <h2 class="section-title">주요 소프트웨어</h2>
+          <span class="section-sub">Pickup</span>
+        </div>
+
+        <div class="pickup-grid">
+          <a href="#" class="product-card">
+            <div class="product-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_80_MV_16x9.png" alt="상품 1" /><span class="badge">NEW</span></div>
+            <div class="product-body">
+              <p class="product-name">Pokémon Pokopia</p>
+              <div class="product-info">
+                <span class="platform">Nintendo Switch 2</span>
+                <span class="price">₩64,800</span>
+              </div>
+              <div class="product-icons">
+                <span class="ico green">All</span>
+                <span class="ico red">></span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="product-card">
+            <div class="product-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_121_b0d72a1ded650de0b5e4a574a2ec621b9d5c01827082d58da63973f7caeae697.png" alt="상품 2" /><span class="badge">NEW</span></div>
+            <div class="product-body">
+              <p class="product-name">마리오 테니스 피버</p>
+              <div class="product-info">
+                <span class="platform">Nintendo Switch 2</span>
+                <span class="price">₩59,800</span>
+              </div>
+              <div class="product-icons">
+                <span class="ico green">All</span>
+                <span class="ico red">></span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="product-card">
+            <div class="product-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_122_e2948fddfe595e38ba5bf477cbf378bcbeb584e36121896e1e7e032ed67b8fc0.png" alt="상품 3" /></div>
+            <div class="product-body">
+              <p class="product-name">커비 에어 라이더</p>
+              <div class="product-info">
+                <span class="platform">Nintendo Switch</span>
+                <span class="price">₩54,800</span>
+              </div>
+              <div class="product-icons">
+                <span class="ico green">All</span>
+                <span class="ico red">></span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="product-card">
+            <div class="product-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_123_298f080377131f2981b05d4ebf7dca5ae45c59f84bdf703f9e499392587db17c.png" alt="상품 4" /></div>
+            <div class="product-body">
+              <p class="product-name">Pokémon LEGENDS Z-A</p>
+              <div class="product-info">
+                <span class="platform">Nintendo Switch 2</span>
+                <span class="price">₩64,800</span>
+              </div>
+              <div class="product-icons">
+                <span class="ico green">All</span>
+                <span class="ico red">></span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="product-card">
+            <div class="product-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_124_fa30f221e24ff611c8f222d1e4ad92089494f297f2341ca1e97c5e5d5c984b82.png" alt="상품 5" /></div>
+            <div class="product-body">
+              <p class="product-name">슈퍼 마리오 갤럭시 + 슈퍼 마리오 2</p>
+              <div class="product-info">
+                <span class="platform">Nintendo Switch</span>
+                <span class="price">₩59,800</span>
+              </div>
+              <div class="product-icons">
+                <span class="ico green">All</span>
+                <span class="ico red">></span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="product-card">
+            <div class="product-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_101_ì__í___ë__ì__ë__ì__ì__.png" alt="상품 6" /></div>
+            <div class="product-body">
+              <p class="product-name">마리오 카트 월드</p>
+              <div class="product-info">
+                <span class="platform">Nintendo Switch 2</span>
+                <span class="price">₩64,800</span>
+              </div>
+              <div class="product-icons">
+                <span class="ico green">All</span>
+                <span class="ico red">></span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="product-card">
+            <div class="product-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_102_ë__ë__ì__.png" alt="상품 7" /></div>
+            <div class="product-body">
+              <p class="product-name">동키콩 바난자</p>
+              <div class="product-info">
+                <span class="platform">Nintendo Switch</span>
+                <span class="price">₩54,800</span>
+              </div>
+              <div class="product-icons">
+                <span class="ico green">All</span>
+                <span class="ico red">></span>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" class="product-card">
+            <div class="product-thumb"><img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_103_ëª_ì__ë__ì___ë__ë__ì___ì___NIntendo_Switch_2_Edition_1920x1080.png" alt="상품 8" /></div>
+            <div class="product-body">
+              <p class="product-name">모여봐요 동물의 숲 Nintendo Switch 2 Edition</p>
+              <div class="product-info">
+                <span class="platform">Nintendo Switch 2</span>
+                <span class="price">₩64,800</span>
+              </div>
+              <div class="product-icons">
+                <span class="ico green">All</span>
+                <span class="ico red">></span>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="more-wrap promo-more-wrap">
+          <a class="more-btn square" href="#"><span class="more-dot">◉</span> 더보기</a>
+        </div>
+
+        <!--  프로모 카드 -->
+        <div class="promo-tiles">
+          <a class="promo-tile red" href="#">
+
+            <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_104_banner_main_bottom01.png" alt="Nintendo Switch 2" />
+          </a>
+          <a class="promo-tile red" href="#">
+            <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_105_banner_main_bottom02.png" alt="날마다 만나는 닌텐도" />
+          </a>
+          <a class="promo-tile red" href="#">
+            <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_106_banner_main_bottom03.png" alt="닌텐도 매거진" />
+          </a>
+
+          <a class="promo-tile red" href="#">
+            <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_107_banner_main_bottom04.png" alt="피크민 4컷" />
+          </a>
+
+          <a class="promo-tile red" href="#">
+            <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_108_banner_main_bottom05.png" alt="프로모션 5" />
+          </a>
+
+          <a class="promo-tile red" href="#">
+            <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_109_banner_main_bottom06.png" alt="젤다의 전설 포털" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         다운로드 안내
+    ========================== -->
+    <section class="bottom-actions">
+      <div class="center-wrap wide-actions-wrap">
+        <p class="bottom-actions-title">쉽고 간편한 다운로드 버전으로도 즐길 수 있습니다.</p>
+
+        <div class="action-row">
+          <a class="action-btn" href="#">
+            <span class="action-ico">🛒</span>
+            <span class="action-txt">다운로드 구입하기</span>
+            <span class="action-arr">›</span>
+          </a>
+
+          <a class="action-btn" href="#">
+            <span class="action-ico">💳</span>
+            <span class="action-txt">Nintendo Switch / 닌텐도 3DS<br />닌텐도 선불 카드 안내</span>
+            <span class="action-arr">›</span>
+          </a>
+
+          <a class="action-btn" href="#">
+            <span class="action-ico">🎁</span>
+            <span class="action-txt">Nintendo Switch<br />닌텐도 선불 번호 구입하기</span>
+            <span class="action-arr">›</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         회색 공지 바
+    ========================== -->
+    <section class="notice-links">
+      <div class="center-wrap narrow-wrap notice-links-inner">
+        <a href="#" class="notice-link">알려 드립니다</a>
+        <a href="#" class="notice-link notice-link-dot">게임물 등급분류에 대하여</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================
+       빨간 브랜드 바
+  ========================== -->
+  <section class="brand-bar">
+    <div class="center-wrap narrow-wrap brand-bar-inner">
+      <a href="#" class="brand-logo">
+        <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_112_top222.png" alt="Nintendo" />
+      </a>
+      <a href="#" class="to-top" aria-label="맨 위로 이동">⌃</a>
+    </div>
+  </section>
+
+  <!-- =========================
+       SNS / 배너 / 사이트맵
+  ========================== -->
+  <section class="social-section">
+    <div class="center-wrap narrow-wrap">
+      <div class="social-row">
+        <a href="#" class="social-btn youtube">
+          <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_113_bottom1111.png" alt="Nintendo" />
+        </a>
+        <a href="#" class="social-btn facebook">
+          <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_113_bottom222.png" alt="Nintendo" />
+        </a>
+        <a href="#" class="social-btn x">
+          <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_113_bottom3333.png" alt="Nintendo" />
+        </a>
+        <a href="#" class="social-btn insta">
+          <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_49_icon_instagram.png" alt="Nintendo" />
+        </a>
+        <a href="#" class="social-btn kakao">
+          <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_113_bottom66665png.png" alt="Nintendo" />
+        </a>
+
+        <a href="#" class="wide-banner mynintendo">
+          <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_113_bottdadadaom.png" alt="Nintendo" />
+        </a>
+        <a href="#" class="wide-banner amiibo">
+          <img src="/클론 웹 사이트 만들기/Nintendo_images/imgi_114_btn_footer_amiibo.png" alt="Nintendo" />
+        </a>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h3>한국닌텐도</h3>
+          <a href="#">회사개요</a>
+          <a href="#">찾아오시는 길</a>
+        </div>
+
+        <div class="footer-col">
+          <h3>본체 / amiibo</h3>
+          <a href="#">Nintendo Switch</a>
+          <a href="#">amiibo</a>
+        </div>
+
+        <div class="footer-col">
+          <h3>소프트웨어</h3>
+          <a href="#">Nintendo Switch 소프트웨어</a>
+          <a href="#">스마트폰 앱</a>
+        </div>
+
+        <div class="footer-col">
+          <h3>고객지원</h3>
+          <a href="#">Nintendo Switch</a>
+          <a href="#">닌텐도 3DS</a>
+          <a href="#">온라인 고객 상담</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       맨 아래 footer
+  ========================== -->
+  <footer class="footer-bottom">
+    <div class="center-wrap narrow-wrap footer-bottom-inner">
+      <div class="footer-left">
+        <p><strong>이용약관</strong> | <strong>개인정보처리방침</strong></p>
+        <p>ⓒ 2006 Nintendo of Korea Co. Ltd. All Rights Reserved.</p>
+        <p>상호명 : 한국닌텐도주식회사　대표자명 : 미우라 타카히로　사업자등록번호 : 120-87-03578</p>
+      </div>
+
+      <div class="footer-right">
+        <p>고객지원 문의 : 1670-9900</p>
+        <p>평일 09:30 ~ 17:30 / 토, 일, 공휴일 휴무</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
